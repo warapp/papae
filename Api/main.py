@@ -37,3 +37,4 @@ def input_name_2(name,last_name):
 if __name__ =="__main__":
     uvicorn.run(app,host="192.168.90.210",port=8000)
 
+print("Hello pea")

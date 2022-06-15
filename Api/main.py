@@ -34,5 +34,8 @@ def input_name_2(name,last_name):
     return data
 
 
+#if __name__ =="__main__":
+    uvicorn.run(app,host="192.168.90.210",port=8000)
+
 if __name__ =="__main__":
     uvicorn.run(app,host="192.168.90.210",port=8000)
